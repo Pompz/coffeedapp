@@ -208,20 +208,21 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 20px;
     letter-spacing: 1px;
-    color: #fff;
+    color: black;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color:#fff;
+    color:#fed136;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0.5;
-    color:#2980b9;
+    color: black;
     background-color: #fed136;
 }
 
@@ -277,8 +278,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 290px;
 }
 
 header .intro-text .intro-lead-in {
@@ -303,8 +304,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 250px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -658,68 +659,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#medicamentos {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#medicamentos .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#medicamentos .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#medicamentos .form-group input,
+section#medicamentos .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#medicamentos .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#medicamentos .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#medicamentos .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#medicamentos::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#medicamentos:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#medicamentos::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#medicamentos:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#medicamentos .text-danger {
     color: #e74c3c;
 }
 
@@ -997,7 +998,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-section#contact {
+section#medicamentos {
     background-color: #222;
     background-image: url(../img/Python_Subscribe_Image.jpg);
     background-position: center;
