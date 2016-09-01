@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Paulo Pompilio - Web Developer</title>
+    <title>Med'Aqui - Encontre o seu medicamento</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="/">P. P O M P I L I O</a>
+                <a class="navbar-brand page-scroll" href="/">M E D'A Q U I</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,13 +58,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#impression">First Impression</a>
+                        <a class="page-scroll" href="#farmacias">Farmácias</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#medicamentos">Medicamentos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#sobre">Sobre</a>
                     </li>
                     {% endblock %}
                 </ul>
@@ -95,15 +95,31 @@
 
 
 
-    <!-- Impression Section -->
-    <section id="impression" class="bg-light-gray">
+    <!-- Farmacias Section -->
+    <section id="farmacias" class="bg-light-gray">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">First Impression</h2>
-            <h3 class="section-subheading text-muted">Working hard to give you the best service possible.</h3>
+            <h2 class="section-heading">Os seus arredores</h2>
+            <h3 class="section-subheading text-muted">Aqui pode ver as farmácias mais proximas de si.</h3>
           </div>
         </div>
+
+          <div class="col-sm-12">
+            <div class="team-member">
+              <img src="{% static "img/team/me.jpg" %}" class="img-responsive img-circle" alt="">
+              <h4>Paulo Pompilio</h4>
+              <p class="text-muted"> Software / Web Developer</p>
+              <ul class="list-inline social-buttons">
+                <li><a href="https://twitter.com/pompasjr"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com/paulo.pompilio"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/pompiliopaulo"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
           <div class="col-sm-12">
             <div class="team-member">
@@ -130,13 +146,13 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <!-- Medicamentos Section -->
+    <section id="medicamentos">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="section-heading">For more info contact me.</h2>
-            <h3 class="section-subheading text-muted">I'll be launching soon a blog with the most recent news and  sharing information </br>about partners in the world of creativity! </h3>
+            <h2 class="section-heading">Medicamentos</h2>
+            <h3 class="section-subheading text-muted">Os medicamentos mais procurados.</br> </h3>
           </div>
         </div>
         <div class="row">
@@ -154,12 +170,12 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Sobre Section -->
+    <section id="sobre">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2 class="section-heading">Sobre</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>

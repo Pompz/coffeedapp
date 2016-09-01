@@ -171,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: black;
+    background-color:#2980b9;
 }
 
 .navbar-default .navbar-brand {
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
-    background-color: transparent;
+    background-color:transparent;
 }
 
 .navbar-default .navbar-toggle {
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #2980b9;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -216,12 +216,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color:#fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
+    border-radius: 0.5;
+    color:#2980b9;
     background-color: #fed136;
 }
 
@@ -233,8 +233,8 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        /*padding: 25px 0;*/
-        padding: 10px 0; /* Change for Project 3 Video 8 */
+        padding: 25px 0;
+        /* padding: 10px 0; Change for Project 3 Video 8 */
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -255,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #2980b9;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -282,6 +282,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    text-align: center;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -292,6 +293,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     color: #2980b9;
+
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -301,7 +303,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
