@@ -1,2 +1,2 @@
 # coffeedapp
-The full yelp like app for coffeed shops.
+Coffee shops finder.
